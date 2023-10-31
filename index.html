@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Fundraiser</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <script defer src="scripts/app.js"></script>
+  </head>
+  <body>
+    <div class="top">
+      <div class="bottom">
+        <div class="container">
+          <h1>Fundraiser</h1>
+          <p class="raised">£<span class="amount">0</span>raised so far</p>
+          <section class="middle">
+            <div class="progress-out transition">
+              <div class="progress-inner"></div>
+            </div>
+            <div class="target">
+              <h2>Target<br />£<span id="total"></span></h2>
+            </div>
+          </section>
+          <p>£<span class="remaining">0</span> needed to hit target</p>
+          <div class="button-container">
+            <button class="donation" value="1">£1</button>
+            <button class="donation" value="5">£5</button>
+            <button class="donation" value="10">£10</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
